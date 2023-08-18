@@ -1,0 +1,369 @@
+:root {
+  --primary-color: #dc3635;
+  --light-color: #fef4e6;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* background-color: var(--primary-color); */
+
+.hero-image {
+  background: linear-gradient(270deg, rgba(255, 185, 185, 0), black),
+    url("../images/farid-2.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.navigation {
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container1 {
+  flex-direction: column;
+  flex: 1;
+  align-self: center;
+}
+
+.farid {
+  display: flex;
+  align-items: center;
+}
+
+.f {
+  color: var(--primary-color);
+  font-size: 30px;
+  font-weight: 900;
+  font-variant: small-caps;
+}
+
+.arid {
+  color: white;
+  font-size: 30px;
+}
+
+.terms {
+  display: flex;
+}
+
+.term-name {
+  margin-left: 20px;
+  color: var(--light-color);
+  text-decoration: none;
+}
+
+.cv-btn {
+  margin-left: 20px;
+}
+
+.name {
+  color: var(--primary-color);
+  font-size: 80px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+.skill {
+  color: white;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.description {
+  color: var(--light-color);
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.home-text {
+  display: flex;
+  align-items: center;
+  /* padding-left: 100px; */
+  padding-top: 100px;
+  height: calc(100% - 125px);
+}
+
+.btn-primary {
+  width: 150px;
+  height: 40px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  width: 150px;
+  height: 40px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 0px;
+}
+
+.btn-light {
+  font-weight: 500;
+  width: 150px;
+  height: 40px;
+  background-color: var(--light-color);
+  border: none;
+  border-radius: 0px;
+  margin-left: 4%;
+  cursor: pointer;
+}
+
+.btn-light:hover {
+  width: 150px;
+  height: 40px;
+  background-color: #fef4e6;
+  border: none;
+  border-radius: 0px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+
+.svg {
+  display: flex;
+  flex: 1;
+  justify-content: left;
+}
+
+.about-container {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-txt {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.about-me-des {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: justify;
+  color: white;
+}
+
+.skill-name {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.services {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.services-txt {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.services-des {
+  display: flex;
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.card {
+  display: block;
+  background-color: #ffecec;
+  border: none;
+  padding: 30px 10px;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  background-color: #ffcbcb;
+}
+
+.card-head {
+  color: black;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.card-des {
+  color: black;
+  padding-top: 10px;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.projects-txt {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.projects-des {
+  display: flex;
+  text-align: center;
+  font-size: 17px;
+  color: white;
+}
+
+.project-terms {
+  flex: 1;
+  justify-content: space-around;
+}
+
+.project-term-name {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  background-color: #ffcbcb;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.project-term-name:hover {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border-radius: 2px;
+}
+.testimonial-section {
+  background-color: black;
+}
+.testimonial-head {
+  color: var(--light-color);
+}
+.testimonial-txt {
+  color: var(--light-color);
+}
+.profile {
+  border: 1px solid white;
+  border-radius: 10px;
+  color: var(--light-color);
+  justify-content: baseline;
+  margin-top: 100px;
+}
+.profile-des {
+  font-size: 15px;
+  text-align: justify;
+}
+.profile-card {
+  margin: -90px auto 0;
+}
+.rectangle-1 {
+  background-color: var(--light-color);
+  height: 9px;
+  width: 30px;
+  border-radius: 5px;
+}
+.rectangle-2 {
+  background-color: #f8a6a6;
+  height: 9px;
+  width: 30px;
+  border-radius: 5px;
+}
+.contact-me {
+  background-color: black;
+}
+.contact-me-head {
+  color: var(--light-color);
+}
+.contact-me-txt {
+  color: var(--light-color);
+}
+
+.form-control {
+  color: black;
+}
+footer {
+  background-color: black;
+}
+.arid2 {
+  color: white;
+  font-size: 30px;
+}
+.term-name2 {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+li a {
+  display: inline-block;
+  color: var(--primary-color);
+  text-align: center;
+  text-decoration: none;
+}
+.footer2 {
+  background-color: var(--primary-color);
+}
+.farid2 {
+  padding: 0px 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.arr {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
