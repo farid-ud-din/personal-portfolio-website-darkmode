@@ -7,8 +7,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/* background-color: var(--primary-color); */
-
 .hero-image {
   background: linear-gradient(270deg, rgba(255, 185, 185, 0), black),
     url("../images/farid-2.jpg");
